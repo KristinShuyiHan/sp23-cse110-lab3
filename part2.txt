@@ -1,6 +1,6 @@
 Fill in the passphrases here.
 Passcode for question 1: greenEggsAndHam 
-question2 passcode:iHateCplusplus
+question2 passcode: iHateCplusplus
 Passcode for question 3: HTMLRocks
 Question 4 Passcode: JavaScriptRules
 Question 5 Passcode: SvelteBeatsReact

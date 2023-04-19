@@ -1,3 +1,3 @@
-# Lab 2 - Starter
-URL to my published site
-https://kristinshuyihan.github.io/Lab2_Starter/
+# sp23-cse110-lab3
+URL of my new GitHub Pages site
+https://kristinshuyihan.github.io/sp23-cse110-lab3/

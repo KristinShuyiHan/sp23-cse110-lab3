@@ -1,4 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
 body {
+  font-family: "Josefin Sans", sans-serif; /*Include and use a 3rd party font */
   background-color: #5483fe; /* the background color of the whole page is blue */
 }
 h1 {
@@ -10,4 +13,11 @@ h1 {
 
   /* Align the text to the center */
   text-align: center;
+}
+.intro {
+  background-color: rgb(
+    253,
+    218,
+    164
+  ); /* the background color of the topics are organe */
 }

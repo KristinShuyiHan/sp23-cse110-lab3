@@ -1,3 +1,13 @@
 body {
-  background-color: #5483fe;
+  background-color: #5483fe; /* the background color of the whole page is blue */
+}
+h1 {
+  /* Change the color of the text to white */
+  color: white;
+
+  /* Add an underline to the text */
+  text-decoration: underline;
+
+  /* Align the text to the center */
+  text-align: center;
 }

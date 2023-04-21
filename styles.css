@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
 
-* {
-}
 body {
   font-family: "Josefin Sans", sans-serif; /*Include and use a 3rd party font */
   background-color: #5483fe; /* the background color of the whole page is hex code blue */
@@ -36,56 +34,81 @@ h1 {
   padding: 0px 0px 20px 0px;
 }
 
-#navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+@media screen and (min-device-width: 768px) {
+  #navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin-top: 50px;
+    margin-right: 60px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    width: 60%; /* add this line */
+  }
+  #navbar a {
+    color: black;
+    text-decoration: none;
+    margin: 40px 10px 30px 20px;
+  }
+
+  #navbar a:hover:nth-of-type(1) {
+    background-color: rgb(
+      227,
+      174,
+      174
+    ); /* change color of first link on hover */
+  }
+
+  #navbar a:hover:nth-of-type(2) {
+    background-color: rgb(
+      174,
+      237,
+      174
+    ); /* change color of second link on hover */
+  }
+
+  #navbar a:hover:nth-of-type(3) {
+    background-color: rgb(
+      228,
+      201,
+      151
+    ); /* change color of third link on hover */
+  }
+
+  #navbar a:hover:nth-of-type(4) {
+    background-color: rgb(
+      208,
+      142,
+      208
+    ); /* change color of fourth link on hover */
+  }
+
+  h3:active,
+  a:active {
+    background-color: yellow;
+  }
+}
+
+main,
+#Agenda {
+  background-color: #f9f9f9d8;
+  border-radius: 50px 20px;
+  width: 100vw;
+  padding: 0px 0px 20px 0px;
+}
+
+#Agenda h2 + section {
+  text-decoration: line-through;
+}
+#Agenda h2 ~ section:hover {
   background-color: white;
-  margin-top: 50px;
-  margin-right: 60px;
-  margin-bottom: 20px;
-  margin-left: 80px;
-  width: 60%; /* add this line */
-}
-#navbar a {
-  color: black;
-  text-decoration: none;
-  margin: 40px 10px 30px 20px;
 }
 
-#navbar a:hover:nth-of-type(1) {
-  background-color: rgb(
-    227,
-    174,
-    174
-  ); /* change color of first link on hover */
+#Agenda ul {
+  border: 1px dashed #5483fe;
 }
 
-#navbar a:hover:nth-of-type(2) {
-  background-color: rgb(
-    174,
-    237,
-    174
-  ); /* change color of second link on hover */
-}
-
-#navbar a:hover:nth-of-type(3) {
-  background-color: rgb(
-    228,
-    201,
-    151
-  ); /* change color of third link on hover */
-}
-
-#navbar a:hover:nth-of-type(4) {
-  background-color: rgb(
-    208,
-    142,
-    208
-  ); /* change color of fourth link on hover */
-}
-
-h3:active,
-a:active {
-  background-color: yellow;
+#Agenda > section {
+  border: 1px solid red;
 }

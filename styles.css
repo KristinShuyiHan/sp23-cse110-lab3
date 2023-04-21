@@ -30,6 +30,8 @@ h1 {
   border-width: 10 px;
   border-radius: 50px 20px;
 }
+
+/* style bg color and border shape of meetingLog and Documentations */
 .meetingLogistics,
 #Documentations {
   background-color: white;
@@ -37,10 +39,11 @@ h1 {
   width: 100vw;
   padding: 0px 0px 20px 0px;
 }
+/*element selector selector practice*/
 p.meetingLogistics {
   margin: auto;
 }
-
+/* style the nav bar and links in it */
 @media screen and (min-device-width: 768px) {
   #navbar {
     display: flex;
@@ -93,12 +96,13 @@ p.meetingLogistics {
     ); /* change color of fourth link on hover */
   }
 
+  /* change color when clicking */
   h3:active,
   a:active {
     background-color: yellow;
   }
 }
-
+/* style bg color and border shape of main and agenda */
 main,
 #Agenda {
   background-color: #f9f9f9d8;
@@ -106,25 +110,28 @@ main,
   width: 100vw;
   padding: 0px 0px 20px 0px;
 }
-
+/* Adjacent sibling combinator  to corss off first part of agenda */
 #Agenda h2 + section {
   text-decoration: line-through;
 }
+/*General sibling combinator to higlight parts */
 #Agenda h2 ~ section:hover {
   background-color: white;
 }
-
+/*element class practice*/
 #Agenda ul {
   border: 1px dashed #5483fe;
 }
-
+/*child combinator to border red */
 #Agenda > section {
   border: 1px solid red;
 }
+/*attribute selector practice*/
 main [class="!!"] {
   font-weight: bold;
 }
 
+/*felx box practice*/
 .image-container {
   display: flex;
   flex-wrap: wrap;
@@ -149,6 +156,8 @@ img {
   height: 5in;
 }
 
+/*postion practice*/
+
 footer {
   position: fixed;
   bottom: 0;
@@ -159,6 +168,7 @@ footer {
   padding-top: 10px;
 }
 
+/*grid practice*/
 #video {
   transform: rotate(270deg) scale(0.3);
   position: relative;

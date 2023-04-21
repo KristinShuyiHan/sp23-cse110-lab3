@@ -1,12 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
 
+* {
+}
 body {
   font-family: "Josefin Sans", sans-serif; /*Include and use a 3rd party font */
-  background-color: #5483fe; /* the background color of the whole page is blue */
+  background-color: #5483fe; /* the background color of the whole page is hex code blue */
 }
 h1 {
   /* Change the color of the text to white */
-  color: white;
+  color: white; /* color name */
 
   /* Add an underline to the text */
   text-decoration: underline;
@@ -15,9 +17,22 @@ h1 {
   text-align: center;
 }
 .intro {
-  background-color: rgb(
-    253,
-    218,
-    164
-  ); /* the background color of the topics are organe */
+  background-color: rgb(253, 218, 164); /* red, green, blue, alpha values */
+  /* the background color of the topics are organe */
+  padding-top: 15px;
+  padding-right: 60px;
+  padding-bottom: 14px;
+  padding-left: 14px;
+  border-style: solid;
+  border-color: hsl(36, 91%, 83%); /*in hsl*/
+  border-width: 10 px;
+  border-radius: 50px 20px;
+}
+.meetingLogistics,
+#Documentations {
+  margin: 0px;
+  background-color: white;
+  border-radius: 50px 20px;
+  width: 100vw;
+  padding: 0px 0px 20px 0px;
 }

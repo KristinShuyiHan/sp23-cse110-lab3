@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+* {
+  color: rgb(29, 1, 1);
+}
 
 body {
   font-family: "Josefin Sans", sans-serif; /*Include and use a 3rd party font */
@@ -32,6 +35,9 @@ h1 {
   border-radius: 50px 20px;
   width: 100vw;
   padding: 0px 0px 20px 0px;
+}
+.meetingLogistics p {
+  margin: auto;
 }
 
 @media screen and (min-device-width: 768px) {
@@ -111,4 +117,7 @@ main,
 
 #Agenda > section {
   border: 1px solid red;
+}
+main [class="!!"] {
+  font-weight: bold;
 }
